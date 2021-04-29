@@ -1,0 +1,28 @@
+package:
+  name:
+  version:
+
+source:
+  url:
+  sha256:
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    -
+
+about:
+  home:
+  license: BSD
+  license_family: BSD
+  summary:
