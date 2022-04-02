@@ -17,5 +17,6 @@ setup(
     url='https://github.com/Smeaol22/****',
     license=my_license,
     package_dir={'': 'src'},
-    packages=find_packages('src')
+    packages=find_packages('src'),
+    install_requires=[]
 )
